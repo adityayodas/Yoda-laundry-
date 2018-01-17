@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Input Data"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/input_nama"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pelanggan"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/input_alamat"
+                android:layout_margin="10dp"
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat Pelanggan"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Telp"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/input_telp"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nomor Telp Pelanggan"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/input_berat"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Berat cucian / Kg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biaya"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_weight="3"
+                    android:id="@+id/input_biaya"
+                    android:layout_margin="10dp"
+                    android:editable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/hitung_biaya"
+                    android:layout_weight="7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="hitung"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimary"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Pengambilan"
+                android:textColor="#000000"/>
+
+            <Spinner
+                android:id="@+id/jenis_kembali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:prompt="@string/list_kembali"
+                android:entries="@array/daftar_kembali">
+            </Spinner>
+
+            <View
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <Button
+                android:id="@+id/simpan"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:text="Simpan"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

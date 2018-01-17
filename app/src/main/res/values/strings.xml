@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YodaLaundry</string>
+
+    <string name="list_kembali">Jenis Kembali</string>
+
+    <string-array name="daftar_kembali">
+        <item>Diambil</item>
+        <item>Diantar</item>
+    </string-array>
+</resources>

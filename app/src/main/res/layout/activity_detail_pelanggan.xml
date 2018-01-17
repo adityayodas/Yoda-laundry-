@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Data Pelanggan"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_nama"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nama"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_alamat"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alamat"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Telp"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_telp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nomor telp"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <LinearLayout
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_sms"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="SMS"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btn_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Call"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/after_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berat Cucian"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_berat"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="berat cucian"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biaya"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_biaya"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="biaya"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Pengambilan"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_jenis_pengambilan"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jenis pengambilan"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proses"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_proses"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="proses"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/detail_status"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="status"/>
+
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333333">
+            </View>
+
+            <Button
+                android:id="@+id/hapus"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:text="Hapus"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
